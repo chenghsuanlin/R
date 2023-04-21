@@ -1,8 +1,8 @@
-#中介、調節 Path Analysis R
-#2018.05.30
+#Path Analysis - Mediator, Moderator
 
-## 中介
-# 讀檔
+
+## Mediator
+
 PA.RAW <- read.csv(file.choose())
 
 #多元共線性檢定
@@ -28,7 +28,7 @@ library(semPlot)
 semPaths(fit.3, whatLabels = "std", layout = "spring",
          sizeMan = 10,sizeLat=10,nCharNodes=10,edge.label.cex = 1)
 ----------------------------------------------------
-## 調節
+## Moderator
 PA.mod <- PA.RAW[1:129, c(3,13,25)]
 str(PA.mod)
 
