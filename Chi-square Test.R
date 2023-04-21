@@ -1,5 +1,4 @@
 #Chi-square test
-#2018.04.25
 
 #適合度考驗(單因子考驗)
 CHI.raw <- read.csv(file.choose(), header=TRUE)
