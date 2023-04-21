@@ -1,7 +1,7 @@
-#多元迴歸 Multiple-regression R
-#2018.05.16
+#Multiple Regression
 
-# 讀檔
+
+# Read file
 REG.RAW <- read.csv(file.choose())
 MUREG <- REG.RAW[c(2,13,20,21)]
 MUREG$ID <- as.factor(MUREG$ID)
