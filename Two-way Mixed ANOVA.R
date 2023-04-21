@@ -1,5 +1,4 @@
 # Two-Way Mixed design ANOVA
-# 107.04.18 class
 
 # 1.read data file
 MIXAOV.raw	<- read.csv(file.choose())
