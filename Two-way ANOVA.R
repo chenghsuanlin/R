@@ -1,5 +1,5 @@
 # Two-Way independent samples & Mixed design ANOVA
-# 107.04.11 class
+
 
 # 1.read data file
 INDAOV2.raw		<- read.csv(file.choose(), header=TRUE)
