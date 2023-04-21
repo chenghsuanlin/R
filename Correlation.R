@@ -1,5 +1,4 @@
-#相關性 correlation R
-#2018.04.25
+#Correlation
 
 COR.raw <- read.csv(file.choose())
 
