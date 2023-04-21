@@ -1,5 +1,5 @@
-#簡單線性迴歸 Simple linear regression R
-#2018.05.09
+#Simple linear regression 
+
 
 # 讀檔
 REG.RAW <- read.csv(file.choose())
