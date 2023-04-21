@@ -1,6 +1,4 @@
-# Jiun-Yu Wu, MLlab, IED, NCTU
-#
-#107.03.24 ANCOVA
+#ANCOVA
 
 
 ##1.Input and check data.
